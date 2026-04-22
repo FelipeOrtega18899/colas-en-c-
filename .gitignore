@@ -1,0 +1,36 @@
+# Binaries and object files
+*.o
+*.obj
+*.exe
+*.out
+*.dll
+*.so
+*.a
+*.lib
+*.pdb
+
+# Build folders
+build/
+bin/
+Debug/
+Release/
+x64/
+x86/
+
+# CMake artifacts (if used)
+CMakeFiles/
+CMakeCache.txt
+cmake-build-*/
+compile_commands.json
+
+# Logs and temp files
+*.log
+*.tmp
+*.temp
+
+# VS Code local settings (optional; uncomment if desired)
+# .vscode/
+
+# OS junk files
+.DS_Store
+Thumbs.db
