@@ -11,9 +11,12 @@ class pilas
 {
 private:
     Nodo* top;
+    Nodo* final;
 public:
     pilas(){
         top = nullptr;
+        final = nullptr;
+
     }
     bool isEmpty() {
         return top == nullptr;
